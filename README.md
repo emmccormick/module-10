@@ -16,7 +16,7 @@
 
   ## Visuals
 
-    ***insert video here?
+    ![](https://drive.google.com/file/d/1RwsEplbtB_fCToknVG32K011WB7FixVB/view)
 
 
   ## Tests

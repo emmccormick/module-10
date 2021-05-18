@@ -23,7 +23,7 @@ function createEmployees(){
                 {
                     type: 'text',
                     name: 'id',
-                    message: "What is the employee's ID?""
+                    message: "What is the employee's ID?"
                 },
                 {
                     type: 'text',
