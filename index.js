@@ -18,17 +18,17 @@ function createEmployees(){
                 {
                     type: 'text',
                     name: 'name',
-                    message: 'What is your name?'
+                    message: "What is the employee's name?"
                 },
                 {
                     type: 'text',
                     name: 'id',
-                    message: 'What is your employee ID?'
+                    message: "What is the employee's ID?""
                 },
                 {
                     type: 'text',
                     name: 'email',
-                    message: 'What is your email?'
+                    message: "What is the employee's email?"
                 },
                 {
                     type: 'list',
@@ -46,7 +46,7 @@ function createEmployees(){
                                 {
                                     type: 'text',
                                     name: 'officeNumber',
-                                    message: 'What is your office number?'
+                                    message: "What is the manager's office number?"
                                 },
                             ])
                             .then(managerAnswer => {
@@ -111,9 +111,9 @@ function createEmployees(){
    
     function createTeamHtml() {
         console.log("creating team...");
-        console.log(teamArr)
+        //console.log(teamArr)
         const htmlString = teamArr.map( member => `<pre>${JSON.stringify(member)} </pre>`).join("")
-        console.log(htmlString)
+        //console.log(htmlString)
         fs.writeFileSync(outputPath, htmlString)
     }
 
